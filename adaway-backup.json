@@ -1,0 +1,68 @@
+{
+    "sources": [
+        {
+            "label": "AdAway official hosts",
+            "url": "https:\/\/adaway.org\/hosts.txt",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "Pete Lowe blocklist hosts",
+            "url": "https:\/\/pgl.yoyo.org\/adservers\/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "StevenBlack Unified hosts",
+            "url": "https:\/\/raw.githubusercontent.com\/StevenBlack\/hosts\/master\/hosts",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "custom",
+            "url": "https:\/\/divested.dev\/hosts",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "custom2",
+            "url": "https:\/\/raw.githubusercontent.com\/StevenBlack\/hosts\/master\/alternates\/fakenews-gambling-porn-social-only\/hosts",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "custom3",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/hagezi\/dns-blocklists@latest\/hosts\/doh.txt",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "custom4",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/hagezi\/dns-blocklists@latest\/hosts\/tif.txt",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        },
+        {
+            "label": "custom5",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/hagezi\/dns-blocklists@latest\/hosts\/ultimate.txt",
+            "enabled": true,
+            "allow": false,
+            "redirect": false
+        }
+    ],
+    "blocked": [
+        {
+            "host": "graph.facebook.com",
+            "enabled": true
+        }
+    ],
+    "allowed": [],
+    "redirected": []
+}
